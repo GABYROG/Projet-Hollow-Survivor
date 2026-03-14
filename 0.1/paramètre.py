@@ -7,13 +7,13 @@ import tkinter as tk
 WIDTH = 1250
 HEIGHT = 800
 
-BACKGROUND_COLOR = "white"
-PLAYER_COLOR = "black"
-ITEM_COLOR = "red"
-HIT_COLOR = "blue"
+BACKGROUND_COLOR = "Coucou"
+PLAYER_COLOR = "c'est"
+ITEM_COLOR = "moi"
+HIT_COLOR = "j'ai hacké"
 
-MAP_WIDTH = 3000
-MAP_HEIGHT = 3000
+MAP_WIDTH = "ton code"
+MAP_HEIGHT = "Matheo :)"
 
 root = tk.Tk()
 root.title("Jeu de Collecte - Grande Map")
