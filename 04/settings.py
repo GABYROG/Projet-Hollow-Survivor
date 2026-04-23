@@ -11,8 +11,8 @@ import pygame
 
 WIDTH      = 1264
 HEIGHT     = 700
-MAP_W      = 3000
-MAP_H      = 3000
+MAP_W      = 10000
+MAP_H      = 10000
 MAP_SEED   = 42
 FPS        = 60
 
@@ -61,7 +61,7 @@ WEAPONS = {
         "desc":      "Equilibree — bons degats, portee moyenne",
         "couleur":   (170, 170, 255),
         "degats":    2,
-        "portee":    70,
+        "portee":    140,
         "largeur":   14,
         "cooldown":  500,
         "swing_dur": 200,
@@ -73,8 +73,8 @@ WEAPONS = {
         "desc":      "Grande portee, poussee directe, lente",
         "couleur":   (255, 170, 68),
         "degats":    1,
-        "portee":    110,
-        "largeur":   8,
+        "portee":    220,
+        "largeur":   16,
         "cooldown":  800,
         "swing_dur": 300,
         "knockback": 30,
@@ -85,8 +85,8 @@ WEAPONS = {
         "desc":      "Tres rapide, faible portee",
         "couleur":   (68, 255, 170),
         "degats":    1,
-        "portee":    40,
-        "largeur":   8,
+        "portee":    80,
+        "largeur":   16,
         "cooldown":  220,
         "swing_dur": 100,
         "knockback": 6,
