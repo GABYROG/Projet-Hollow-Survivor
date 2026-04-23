@@ -48,7 +48,9 @@ def update(gs) -> bool:
     # Tir continu arc (clic maintenu)
     if player.mouse_held and WEAPONS[player.weapon]["type"] == "range":
         do_attack(gs)
-
+    # Tir continu armes cc (clic maintenu)
+    if player.mouse_held and WEAPONS[player.weapon]["type"] == "melee":
+        do_attack(gs)
     # Spawn ennemis
     gs.tick_spawn(now, SPAWN_INTERVAL, MAX_ENEMIES)
 
@@ -106,7 +108,7 @@ def _melee_attack(gs, weapon: dict, now: int):
 
     pcx, pcy = player.center()
     a        = player.aim_angle
-    reach    = weapon["portee"]
+    reach    = weapon["portee"] 
     hw       = weapon["largeur"] * 2
 
     # Hitbox d'attaque devant le joueur
